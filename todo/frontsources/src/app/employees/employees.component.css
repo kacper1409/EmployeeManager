@@ -1,0 +1,5 @@
+.mat-card {
+    width: 400px;
+    display: grid;
+    text-align: left;
+}

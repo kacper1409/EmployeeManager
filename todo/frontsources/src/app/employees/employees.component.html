@@ -1,0 +1,21 @@
+<div class="container"
+     fxLayout="column"
+     fxLayoutAlign="start"
+     fxLayoutGap="20px">
+
+    <div *ngFor="let employee of employees">
+    
+        <mat-card>
+    
+        <div class="content-text">
+            <mat-card-title>{{employee.name}}</mat-card-title>
+            <mat-card-subtitle>{{employee.role}}</mat-card-subtitle>
+        </div>
+    
+        <button mat-button color="warn">Delete</button>
+    
+        </mat-card>	
+        
+    </div>
+
+</div>
